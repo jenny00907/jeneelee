@@ -12,15 +12,20 @@
 	$subject = $_POST['subject'];
 	$message = $_POST['message'];
 	
-	if(filter_var($email, FILTER_VALIDATE_EMAIL) == false){
+	if( empty($name) ){
+		$data['error'] = 'Please enter your name.';
+	}else if(filter_var($email, FILTER_VALIDATE_EMAIL) == false){
 		$data['error'] = 'Please enter a valid email address.';
 	}else if( empty($subject) ){
 		$data['error'] = 'Please enter your subject.';
+	}else if( empty($message) ){
+		$data['error'] = 'The message field is required!';
 	}else{
 		
 		$formcontent="From: $name\nSubject: $subject\nEmail: $email\nMessage: $message";
 		
 		
+		//Place your Email Here
 		$recipient = "jenny00907@gmail.com";
 		
 		$mailheader = "From: $email \r\n";
