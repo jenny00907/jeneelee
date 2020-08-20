@@ -1,0 +1,119 @@
+
+/*styles for the body*/
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Raleway", sans-serif
+}
+
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+/* table that holds staffs images */
+#picture_table {
+ margin-left: auto;
+ margin-right: auto;
+}
+
+/*this will edit all images*/
+img {
+  height: 400px;
+  max-height: 100%;  
+}
+
+/* column1 of the images */
+#column1{
+  width: 270px;
+}
+
+/* each cell object */
+td {
+  width: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* this is for all the table cells */
+#container_column {
+  width: 270px;
+}
+#cell_border {
+  width: 270px;
+  max-height: 100%;
+
+}
+
+#table_pic {
+  width: 270px;
+  height: 375px;
+}
+
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("logoblack.jpg");
+    min-height: 70%;
+
+}
+
+
+.w3-bar .w3-button {
+    padding: 16px;
+}
+
+/* upcoming events header */
+
+#event_picture_table {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#event_table_cell {
+  max-width: 100%;
+}
+
+#upcoming_events_heading {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#event_table_row {
+  max-width: 100%;
+}
+
+/* event pictures */
+
+#event_pic {
+  width: 420px;
+  height: 550px;
+}
+
+/* Want to get involved section */
+
+#get_involved_section_h {
+  text-align: center;
+}
+
+#get_involved_pic {
+  width: 600px;
+  height: 850px;
+}
+
+
+
+ /* trying to style subheadings in staff titles and get rid of big gaps between words */
+
+ h5 {
+  color: grey;
+ }
+ h1, h2, h3, h4{
+  line-height: 15px; 
+ }
+ h6 {
+  line-height: 15px;
+ }
+

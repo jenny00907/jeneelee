@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<title>ISA | University of Oregon International Student Association</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta content="UO | International Student Association" name="description">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="styles.css" rel="stylesheet" type="text/css"/>
+<style>
+
+
+
+
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card-2" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide"><img src="logo.jpg" style= "width:20px;height:20px;"></a></img>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#events" class="w3-bar-item w3-button"><i class="fa fa-th"></i> EVENTS</a>
+      <a href="#getinvolved" class="w3-bar-item w3-button"><i class="fa fa-pencil"></i> GET INVOLVED</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#events" onclick="w3_close()" class="w3-bar-item w3-button">EVENTS</a>
+  <a href="#getinvolved" onclick="w3_close()" class="w3-bar-item w3-button">GET INVOLVED</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT THE ORGANIZATION</h3>
+  <p class="w3-center w3-large">
+    UO International Student Association (UOiSA) is an International Student Group at University of Oregon. We represent approximately 3,000 international students from over 90 different countries.
+
+    President, Vice President, Secretary, four executives, 24 interns, and hundreds of many wonderful, hardworking volunteers run UOiSA. Our goal is to build, strengthen, and support all international communities and utilize available resources to promote and bridge all nationalities.
+
+    To accomplish the goal, we host numerous events on and off campus for both international and domestic students to have a better understanding of diverse culture.
+</p>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:80px 20px" id="team">
+  <h3 class="w3-center">THE TEAM</h3>
+  <p class="w3-center w3-small">2017-2018</p>
+  <!--<img src="GROUPEXEC.jpg" alt="Exec Team" style="width:100%">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br> -->
+</div>
+<!-- table below is for the pictures of the staff, it is labeled picture table for css page -->
+<table  id="picture_table">
+  <tr>
+          <td>
+
+          <!-- first cell of table         -->
+          <!--this will apply the raised appearance to this cell in the table-->
+          <div class="w3-card-2" id="cell_border">
+           <img src="BRENDA1.jpg" id= "table_pic">
+           <!-- this will put a container on the bottom of this picture -->
+             <div class="w3-container" id="container_column">
+              <!--Title of staff and description as well as email link-->
+                <h3>Brenda Ko</h3>
+                <h5>President</h5>
+                <h6>Senior</h6>
+                <h6>OBA Major</h6>
+                <p><a href="mailto:bko@uoregon.edu" style="text-decoration:none;"><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></a></p>
+             </div>
+         </div>
+         </td>
+
+      <!-- second cell of table         -->
+      <!--this will apply the raised appearance to this cell in the table-->
+       <td>
+          <div class="w3-card-2" id="cell_border">
+            <img src="CATHY1.jpg" id="table_pic">
+             <!-- this will put a container on the bottom of this picture -->
+                 <div class="w3-container" id="container_column">
+                 <!--Title of staff and description as well as email link-->
+                  <h3>Cathy Dong</h3>
+                  <h5>Vice President</h5>
+                  <h6>Senior</h6>
+                  <h6>Journalism Major</h6>
+                   <p><a href="mailto:gdong@uoregon.edu" style="text-decoration:none;"><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></a></p>
+                </div>
+          </div>
+        </td>
+
+        <!-- third cell of table         -->
+        <!--this will apply the raised appearance to this cell in the table-->
+       <td>
+          <div class="w3-card-2" id="cell_border">
+            <img src="JENNY1.jpg" id="table_pic">
+             <!-- this will put a container on the bottom of this picture -->
+                 <div class="w3-container" id="container_column">
+                 <!--Title of staff and description as well as email link-->
+                  <h3>Jenny Lee</h3>
+                  <h5>Secretary</h5>
+                  <h6>Senior</h6>
+                  <h6>CIS Major</h6>
+                   <p><a href="mailto:wooriml@uoregon.edu" style="text-decoration:none;"><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></a></p>
+                </div>
+          </div>
+        </td>
+  </tr>
+
+  <!-- start of new row -->
+  <tr>
+        <!-- fourth cell of table         -->
+        <!--this will apply the raised appearance to this cell in the table-->
+          <td>
+              <div class="w3-card-2" id="cell_border">
+                <img src="ANDREW1.jpg" id="table_pic">
+                 <!-- this will put a container on the bottom of this picture -->
+                     <div class="w3-container" id="container_column">
+                     <!--Title of staff and description as well as email link-->
+                       <h4>Andrew McGruer</h4>
+                       <h5>Finance Executive</h5>
+                       <h6>Senior</h6>
+                       <h6>Finance & Econ Major</h6>
+                       <p><a href="mailto:amcgruer@uoregon.edu" style="text-decoration:none;"><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></a></p>
+                    </div>
+              </div>
+          </td>
+
+          <!-- fifth cell of table         -->
+          <!--this will apply the raised appearance to this cell in the table-->
+            <td>
+                <div class="w3-card-2" id="cell_border">
+                  <img src="IRIS1.jpg" id="table_pic">
+                   <!-- this will put a container on the bottom of this picture -->
+                       <div class="w3-container" id="container_column">
+                       <!--Title of staff and description as well as email link-->
+                         <h4>Iris Wei</h4>
+                         <h5>Outreach Executive</h5>
+                         <h6>Senior</h6>
+                         <h6>Education Major</h6>
+                         <p><a href="mailto:ywei7@uoregon.edu" style="text-decoration:none;"><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></a></p>
+                      </div>
+                </div>
+            </td>
+
+          <!-- sixth cell of table         -->
+          <!--this will apply the raised appearance to this cell in the table-->
+            <td>
+                <div class="w3-card-2" id="cell_border">
+                  <img src="BRIDGET1.jpg" id="table_pic">
+                   <!-- this will put a container on the bottom of this picture -->
+                       <div class="w3-container" id="container_column">
+                       <!--Title of staff and description as well as email link-->
+                         <h4>Bridget Garland</h4>
+                         <h5>Program Executive</h5>
+                         <h6>Sophomore</h6>
+                         <h6>Int'l Studies & Chinese Major</h6>
+                         <p><a href="mailto:ywei7@uoregon.edu" style="text-decoration:none;"><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></a></p>
+                      </div>
+                </div>
+            </td>
+    </tr>
+</table>
+
+
+<!-- Event Section -->
+<div id="events">
+  <h3 id="upcoming_events_heading">Upcoming Events</h3>
+  <p class="w3-center w3-large">Everyone's Welcome!</p><p class="w3-center w3-medium">Click to Enlarge Image and See Details!</p>
+    
+    <!-- table to hold coffee hour pictures -->
+<table id="event_picture_table">
+  <tr id="event_table_row">
+    <td id = "event_table_cell"><img id="event_pic" src="socialbutterfly.jpg"  onclick="onClick(this)" class="w3-hover-opacity" alt="Social Butterfly 9/16/17 6PM-8PM @ GSH GREAT ROOM"></td>
+    <td id = "event_table_cell"><img id="event_pic" src="coffeehour.jpg"  onclick="onClick(this)" class="w3-hover-opacity" alt="COFFEE HOUR EVERY FRIDAY 4PM-6PM @ LLC SOUTH"></td>  
+  </tr>
+</table>
+</div>
+      
+    
+      
+
+  <!-- Opportunities Section -->
+<div class="w3-container" style="padding:128px 20px" id="getinvolved">
+  <h3 class="w3-center">WANT TO GET INVOLVED?</h3>
+  <br>
+  <h4 id="get_involved_section_h">Everyone's Welcome to Apply!</h4>
+  <br>
+  <h6 id="get_involved_section_h">We have 23 internship opportunities for you!</h6>
+
+<p class="w3-center w3-medium">Click <a href="http://bit.ly/2tiLwiG" target="_blank" >here</a> to go to the requirements page.</p>
+
+<p class="w3-center w3-medium">Click  
+<a href="https://goo.gl/forms/9ysUzHALRtw2EXFs1" target="_blank" >here</a> to go to the online application.</p>
+
+<p class="w3-center w3-medium">Lastly, send your resume to <a href="mailto:asuoisa@uoregon.edu">asuoisa@uoregon.edu</a> with your UO ID, Year in School, and Position You're Applying For in the Subject Line.</p>
+
+<p class="w3-center w3-medium">Deadline is September 29, 2017 Midnight.</p>
+ <div class="w3-row-padding" style="margin-top:30px">
+    <div class="w3-center">
+      <img id="get_involved_pic" src="isainternship.JPG" onclick="onClick(this)" class="w3-hover-opacity" alt="Internship">
+    </div>
+  </div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:80px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Have Questions? Send us a message:</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-half">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Room 103B, 1228 University Street Eugene, OR 97403</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: (541) 346-4387</p>
+      <p><a href="mailto:asuoisa@uoregon.edu"><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></a></i>Email: asuoisa@uoregon.edu</p>
+      <br>
+    </div>
+    <div class="w3-half">
+      <!-- Add Google Maps -->
+      <div id="googleMap" style="width:100%;height:410px;"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.facebook.com/InternationalDuck"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="http://instagram.com/uoisa"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="http://twitter.com/UOISA"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/company/3842228?trk=prof-exp-company-name"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+  <p>© University of Oregon International Student Association</p>
+</footer>
+ 
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(44.044847, -123.073816);
+  var mapOptions= {
+    center:myCenter,
+    zoom:17, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+    } else {
+        mySidebar.style.display = 'block';
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfb2KfGsOFSAgtolpD5ahIQWVopcIxCxY&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
